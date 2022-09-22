@@ -1,0 +1,35 @@
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+.fas {
+  color: rgb(41, 113, 191);
+}
+.fa {
+  font-size: 2rem;
+}
+.butt {
+  font-size: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(41, 113, 191);
+    transform: translateY(0.6rem);
+    color: white;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container__header {
+    font-size: 5rem;
+  }
+}
